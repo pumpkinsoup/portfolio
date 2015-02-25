@@ -1,0 +1,202 @@
+@import url(http://fonts.googleapis.com/css?family=Helvetica:400,100,300);
+  
+html {
+  box-sizing: border-box;
+  *, *:before, *after {
+  box-sizing: inherit;
+  }
+}
+
+#joni {
+  position: relative;
+  top: 6px;
+  left: -30px;
+}
+
+body {
+  line-height: 1;
+  font-weight: 100;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+#mainNav {
+  position: fixed;
+  width: 900px;
+  top: 0;
+}
+
+.top-navigation {
+  padding: 10px;
+  margin-bottom: 15px;
+  display: block;
+  width: 900px;
+  z-index: 9999;
+  background-color: #fff;
+}
+
+.top-navigation .content {
+  padding: 2px 5px;
+  width: 900px;
+  height: 85px;
+  margin: 0 auto; 
+  font-family: "Helvetica";
+  font-size: 26px;
+  color: #4c5058;
+  text-align: center;
+}
+
+.top-navigation .projects {
+  font-size: 26px;
+}
+
+.top-navigation .links {
+  padding: 40 -1px;
+  border-radius: 1px;
+  position: relat1ve;
+  float: right;
+  display: inline-block;
+  color: #4c5058;
+  -webkit-font-something: antialiased;
+}
+
+.top-navigation li {
+  display: inline-block;
+  margin-top: 2px;
+  margin-left: 12px;
+}
+
+.links {
+  text-decoration: none;
+}
+
+ul:hover {
+  color: darkgrey;
+}
+
+.top-navigation .links > li ul {
+  display: none;
+}
+
+nav ul {
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+}
+
+.cover {
+  background-image: url(http://i.imgur.com/RzU25FD.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-origin: content-box;
+  padding: 95px 0;
+  height: 410px;
+  text-align: center;
+}
+
+.content-intro {
+  padding-top: 9.5em;
+  margin-bottom: 0.4em;
+  font-family: Helvetica;
+  margin-left: 400px;
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 34px;
+}
+
+.content-hello {
+  padding-top: 3px;
+  font-family: Helvetica;
+  margin-left: 400px;
+  color: #ffffff;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.about-me {
+  text-align: left;
+  font-family: Helvetica;
+  color: dark gray;
+}
+
+hr {
+  width: 80%
+}
+
+.projects {
+  text-align: center;
+  padding-top: -1px;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: dark gray;
+}
+
+.left {
+  text-align: left;
+  padding-bottom: -1em;
+}
+
+.smaller {
+  font-size: 12px;
+}
+
+.projects .Thinkful {
+  width: 48%;
+  display: inline-block;
+  padding-left: 12px;
+}
+
+.articles {
+  text-align: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #A1A1A1;
+  padding-top: 2px;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: white;
+}
+
+.writings {
+  margin-top: 17px;   
+}
+
+.articles .writings {
+  width: 24%;
+  display: inline-block;
+  border: 1px black;
+  box-sizing: border-box;
+}
+.random {
+  text-align: center;
+  font-family: Helvetica; 
+  color: dark gray;
+}
+
+.random .online {
+  display: inline-block;
+  width: 47%;
+  color: dark gray;
+}
+
+.bottom {
+  text-align: center;
+  font-family: Helvetica;
+  color: #838994;
+}
+
+.bottom li {
+  text-align: center;
+  display: inline-block;
+  padding: 8px;
+  margin-right: 25px;
+  margin-left: auto;
+}
